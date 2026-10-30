@@ -360,10 +360,8 @@ html { scroll-padding-top:100px; }
 .premium-products .product-price { display:grid; gap:1px; margin:0; }
 .premium-products .product-price b { font-size:20px; font-weight:700; letter-spacing:-.055em; line-height:1.05; }
 .premium-products .product-price span { color:rgba(20,20,20,.62); font-size:9px; font-weight:600; }
-.premium-products .catalogue-order { display:inline-flex; align-items:center; gap:7px; min-height:40px; padding:9px 14px; border:0; border-radius:999px; background:var(--ink); color:#fff; font:inherit; font-size:10px; font-weight:700; letter-spacing:.02em; line-height:1; white-space:nowrap; cursor:pointer; transition:background .2s ease,transform .2s ease; }
-.premium-products .catalogue-order span { font-size:14px; line-height:0; transition:transform .2s ease; }
+.premium-products .catalogue-order { display:inline-flex; align-items:center; justify-content:center; min-height:40px; padding:9px 16px; border:0; border-radius:999px; background:var(--ink); color:#fff; font:inherit; font-size:10px; font-weight:700; letter-spacing:.02em; line-height:1; white-space:nowrap; cursor:pointer; transition:background .2s ease,transform .2s ease; }
 .premium-products .catalogue-order:hover { background:#34312c; transform:translateY(-2px); }
-.premium-products .catalogue-order:hover span { transform:translateX(2px); }
 .premium-products .catalogue-order:focus-visible { outline:3px solid var(--berry); outline-offset:3px; }
 .premium-products #product-pineapple { --catalogue-panel:#fff6d4; }
 .premium-products #product-passion { --catalogue-panel:#fff0e3; }
