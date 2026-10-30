@@ -150,7 +150,6 @@ h1 i,h2 i { color:var(--berry); font-style:normal; }
 .premium-home .photo-hero-content h1 i { color:var(--mango); }
 .premium-home .photo-hero-content>p:not(.eyebrow) { color:#f2efeb; }
 .premium-home .photo-hero-content .eyebrow { color:#fff; }
-.premium-home .photo-hero-content .text-link { border-color:#fff; }
 .premium-home .hero-location { color:#fff; }
 .premium-home .final-pour-box { width:100vw; margin-left:calc(50% - 50vw); }
 .premium-home .final-pour-box>div { padding-left:max(28px, calc((100vw - 1180px)/2)); padding-right:max(28px, calc((100vw - 1180px)/2)); }
